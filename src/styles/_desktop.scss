@@ -1,0 +1,15 @@
+@media (min-width: 550px) {
+  body {
+    height: 100dvh;
+  }
+  #card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #fff;
+    align-items: center;
+
+    #product-img {
+      border-radius: 16px 0 0 16px;
+    }
+  }
+}
